@@ -1,0 +1,13 @@
+for(nombre in nombres) {
+        hola(nombre);
+    }
+	
+print("Hola mundo!\n");
+
+input("Ingrese sus datos\n");
+
+if (x > 1000) {
+    print("really big");
+}
+
+[ for (p in people) if (p.age>=18) p ]
