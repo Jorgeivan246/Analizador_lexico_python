@@ -1,4 +1,4 @@
-# Analizador léxico . Teoria de lenguajes Formales
+# Analizador léxico básico. Teoria de lenguajes Formales
 El lenguaje utilizado para construir el analizador es Python
 ## Funcionamiento
 El programa lee el archivo, luego se utilizan expresiones regulares para encontrar las partes requeridas, en este caso palabras reservadas del lenguaje cylon
