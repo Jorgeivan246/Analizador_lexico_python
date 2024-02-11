@@ -1,14 +1,13 @@
-# Analizador léxico básico. Teoria de lenguajes Formales
-El lenguaje utilizado para construir el analizador es Python
-## Funcionamiento
-El programa lee el archivo, luego se utilizan expresiones regulares para encontrar las partes requeridas, en este caso palabras reservadas del lenguaje cylon
-Para encontrar los elementos buscados se usan diferentes tipos de expresiones algunas de ellas son:
+# Basic lexical analyzer. Formal language theory
+The language used to build the parser is Python.
+## Operation
+The program reads the file, then regular expressions are used to find the required parts, in this case Cylon language reserved words.
+Different types of expressions are used to find the required elements, some of them are:
 . ^ $ * + ? { } [ ] \ | ( )
 
-## El resultado es :
-- La sentencia del for es  ['(nombre in nombres)', '(p in people)']
-- La sentencia del if es  ['if (x > 1000)', 'if (p.age>=18)']
-- La sentencia del print es  ['print("Hola mundo!\\n")', 'print("really big")']
-- La sentencia del input es  ['input("Ingrese sus datos\\n")']
-
+## The result is :
+- The for statement is ['(name in names)', '(p in people)']
+- The if statement is ['if (x > 1000)', 'if (p.age>=18)'].
+- The print statement is ['print("Hello world!")', 'print("really big")'].
+- The input statement is ['input("Enter your data")'].
 
